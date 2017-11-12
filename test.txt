@@ -10,5 +10,6 @@ test6
 원격추가
 동기화됨?
 master
+user2
 
 
