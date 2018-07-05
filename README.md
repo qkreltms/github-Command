@@ -26,6 +26,10 @@ git branch //branch 생겼는지 확인<br>
 git checkout testing// git checkout -b testing 으로 한번에 할 수도 있다.<br>
 # branch 이동
 git checkout testing //head가 testing branch로 이동한다.<br>
+# branch 삭제
+git branch -d testing
+# branch 합치기
+git merge master //testing branch에서
 
 
 
