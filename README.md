@@ -38,10 +38,12 @@ git merge master //testing branch에서
 ">>>>>>> master" 이 부분은 병합하려는 대상 branch의 중복된 부분의 끝 지점이다.<br>
 충돌 부분을 처리하고 git add *, git status를 입력 후<br>
 "All conflicts fixed but you are still merging."이 뜨는지 확인하자.<br>
-뜨는것을 확인 후 git commit<br>
+뜨는것을 확인 후 git commit -m "test"<br>
 참고로 자동으로 conflict를 처리해주는 git mergetool 이라는 것도있다.<br>
 # 현재 branch 상태 그래프로 보기
 git log --oneline --decorate --graph --all
+# branch 이름 변경하기
+git branch -m 변경전_branch_name 새로운_branch_name
 
 
 
