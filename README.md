@@ -44,7 +44,11 @@ git merge master //testing branch에서
 git log --oneline --decorate --graph --all
 # branch 이름 변경하기
 git branch -m 변경전_branch_name 새로운_branch_name
-
+# merge vs rebase
+<https://git-scm.com/book/ko/v1/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase%ED%95%98%EA%B8%B0><br>
+# pull vs fetch
+pull = fetch + merge<br>
+fetch: 새로운 fetch_head branch를 만들어주고, 이것과 merge 해야 됨
 
 
 
