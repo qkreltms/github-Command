@@ -20,6 +20,7 @@ git clone <url><br>
 # 깃 허브 유저 등록
 git config credential.helper store<br>
 를 입력후 push 할 때 비밀번호, 아이디를 입력하면 다음에 묻지 않는다.<br>
+# 깃 허브 연습 중
 
 
 
