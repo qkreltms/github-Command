@@ -1,8 +1,3 @@
-# 깃 명령어 정리 <br>
-git init<br>
-git --help<br> 
-git log (종료 q)<br>
-git clone<br>
 # branch가 2개 이상일 경우 git pull할 시,<br>
 There is no tracking information for the current branch.<br>
 Please specify which branch you want to merge with. 가 뜰 수 있다.<br>
