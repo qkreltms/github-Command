@@ -1,5 +1,5 @@
 # branch가 2개 이상일 경우 git pull할 시<br>
-There is no tracking information for the current branch..<br>
+There is no tracking information for the current branch.<br>
 Please specify which branch you want to merge with. 가 뜰 수 있다.<br>
 로컬 branch에서 어느 branch로 pull 해야할지 모르는 경우 뜸으로<br>
 git pull origin master<br>
