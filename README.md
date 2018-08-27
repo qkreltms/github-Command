@@ -45,8 +45,11 @@ git branch -m 변경전_branch_name 새로운_branch_name
 # pull vs fetch
 pull = fetch + merge<br>
 fetch: 새로운 fetch_head branch를 만들어주고, 이것과 merge 해야 됨
-# reset
-http://hochulshin.com/git-revert-changes/
+# reset 이미 깃허브에 push 한 것을 이전으로 되돌리기
+git reset 483452d //원하는 커밋 위치로 되돌리기 (이전 소스코드 내용은 그대로 둔체로)
+git commit -m "..."  //되돌린 부분에서 커밋
+git push origin +master //remote repository를 강제로 revert
+참고: http://hochulshin.com/git-revert-changes/
 
 
 
