@@ -49,7 +49,7 @@ fetch: 새로운 fetch_head branch를 만들어주고, 이것과 merge 해야 �
 git reset 483452d //원하는 커밋 위치로 되돌리기 (이전 소스코드 내용은 그대로 둔체로)
 git commit -m "..."  //되돌린 부분에서 커밋
 git push origin +master //remote repository를 강제로 revert
-참고: http://hochulshin.com/git-revert-changes/
+<br>참고: http://hochulshin.com/git-revert-changes/
 
 
 
