@@ -45,7 +45,8 @@ git branch -m 변경전_branch_name 새로운_branch_name
 # pull vs fetch
 pull = fetch + merge<br>
 fetch: 새로운 fetch_head branch를 만들어주고, 이것과 merge 해야 됨
-
+# reset
+http://hochulshin.com/git-revert-changes/
 
 
 
